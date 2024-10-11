@@ -3269,7 +3269,7 @@ body {
 			position: absolute;
 			top: 5500px;
 			transition: 0.5s ease-in-out;
-			height: 1200px;
+			height: 1350px;
 			width: 100%;
 		}
 
@@ -3589,7 +3589,7 @@ body {
 
 		.typing-container {
 			position: absolute;
-			top: 950px;
+			top: 985px;
 			left: 45%;
 			font-size: 22px;
 			font-weight: bold;
@@ -3611,7 +3611,7 @@ body {
 		
 		.before-typed-text-space {
 			position: absolute;
-			top: 915px;
+			top: 950px;
 			left: 0%;
 			width: 100%;
 			font-size: 22px;
@@ -3622,8 +3622,8 @@ body {
 
 		.dataplus {
 			position: absolute;
-			top: 950px;
-			left: 28%;
+			top: 985px;
+			left: 25%;
 			width: 100px;
 			font-size: 22px;
 			color: #3f3f3f;
@@ -3634,7 +3634,7 @@ body {
 	
 		.after-typed-text {
 			position: absolute;
-			top: 985px;
+			top: 1020px;
 			left: 0%;
 			width: 100%;
 			font-size: 22px;
@@ -3653,7 +3653,7 @@ body {
 			position:absolute;
 			top: 320px;
 			width: 98%;
-			height: 250px;
+			height: 220px;
 			left: 1%;
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
