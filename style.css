@@ -857,7 +857,7 @@ body {
 		-ms-border-radius: 20px !important;
 		border: 0px dashed #000000;
 		transition: 1s ease-in-out;
-		z-index: 1000;
+		z-index: 900;
 	}
 
 	.pipestartdash {
@@ -1406,7 +1406,7 @@ body {
 		-ms-border-radius: 20px !important;
 		border: 0px solid #000000;
 		transition: 2s ease-in-out;
-		z-index: 1000;
+		z-index: 900;
 		rotate: 270deg;
 	}
 
