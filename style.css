@@ -4177,7 +4177,7 @@
 			
 		}
 	
-	
+		
 		.storemobile {
 			position: absolute;
 			left: 5%;
@@ -5028,8 +5028,8 @@
 	
 		.contentcreator {
 			position: absolute;
-			left: 320px;
-			top: 2100px;
+			left: 70px;
+			top: 2152px;
 			width: 100px;
 			height: 50px;
 			font-size: 20px;
@@ -5112,8 +5112,8 @@
 	
 		.hotelguest {
 			position: absolute;
-			left: 420px;
-			top: 2100px;
+			left: 170px;
+			top: 2152px;
 			width: 100px;
 			height: 50px;
 			font-size: 20px;
