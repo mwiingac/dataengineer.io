@@ -1,5 +1,4 @@
 
-
 @media only screen and (min-width: 1100px) {
 
 
@@ -2909,6 +2908,7 @@
 	
 
 
+
 @media only screen and (max-width: 1100px) {
 
 	html {
@@ -3931,7 +3931,7 @@
 			left: 10px;
 			top: 150px;
 			width: 95%;
-			height: 350px;
+			height: 360px;
 			/*background-color: #e5e1da;*/
 			background-color: #f1f5f5;
 			display: flex;
@@ -4031,7 +4031,7 @@
 			left: 10px;
 			top: 600px;
 			width: 95%;
-			height: 350px;
+			height: 360px;
 			background-color: #f1f5f5;
 			display: flex;
 			vertical-align: middle;
@@ -4128,7 +4128,7 @@
 			left: 10px;
 			top: 1050px;
 			width: 95%;
-			height: 350px;
+			height: 360px;
 			/*background-color: #e5e1da;*/
 			background-color: #f1f5f5;
 			display: flex;
@@ -4230,7 +4230,7 @@
 			left: 10px;
 			top: 1500px;
 			width: 95%;
-			height: 350px;
+			height: 360px;
 			background-color: #f1f5f5;
 			display: flex;
 			vertical-align: middle;
@@ -4330,7 +4330,7 @@
 			left: 10px;
 			top: 1950px;
 			width: 95%;
-			height: 350px;
+			height: 360px;
 			/*background-color: #e5e1da;*/
 			background-color: #f1f5f5;
 			display: flex;
@@ -4598,7 +4598,7 @@
 		.modeicon {
 			position: absolute;
 			top: 40px;
-			right: 40px;
+			right: 10px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4611,7 +4611,7 @@
 			top: 20px;
 			left: 20px;
 			height: 150px;
-			width: 280px;
+			width: 350px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4649,7 +4649,7 @@
 		.ingesticon {
 			position: absolute;
 			top: 40px;
-			right: 40px;
+			right: 10px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4671,7 +4671,7 @@
 			top: 20px;
 			left: 20px;
 			height: 150px;
-			width: 280px;
+			width: 350px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4699,7 +4699,7 @@
 		.storeicon {
 			position: absolute;
 			top: 40px;
-			right: 40px;
+			right: 10px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4722,7 +4722,7 @@
 			top: 20px;
 			left: 20px;
 			height: 150px;
-			width: 280px;
+			width: 350px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4751,7 +4751,7 @@
 		.processicon {
 			position: absolute;
 			top: 40px;
-			right: 40px;
+			right: 10px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4773,7 +4773,7 @@
 			top: 20px;
 			left: 20px;
 			height: 150px;
-			width: 280px;
+			width: 350px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4801,7 +4801,7 @@
 		.analyseicon {
 			position: absolute;
 			top: 40px;
-			right: 40px;
+			right: 10px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4824,7 +4824,7 @@
 			top: 20px;
 			left: 20px;
 			height: 150px;
-			width: 280px;
+			width: 350px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -5706,9 +5706,11 @@
 			word-wrap: break-word;
 			overflow: hidden;
 			color: #000000;
-			width: 100%;
-			top: 20px;
-			height: 10%;
+			background-color: #ffffff;
+			left: 0%;
+			width: 90%;
+			height: 70px;
+			top: 0px;
 			font-size: 35px;
 			font-family: 'Segoe UI Variable Text', 'Segoe UI Variable', 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', system-ui, sans-serif;
 			font-weight: 1000;
