@@ -1,4 +1,5 @@
 
+
 @media only screen and (min-width: 1100px) {
 
 
@@ -2900,18 +2901,12 @@
 		cursor: pointer;
 	  }
 	
-	
-	
-	
-	  
-	
-	
+
 	} 
 	
 	
 	}
 	
-
 
 
 @media only screen and (max-width: 1100px) {
@@ -3412,7 +3407,7 @@
 			vertical-align: middle;
 			justify-content: center;
 			align-items: center;
-			bottom: 20px;
+			bottom: 70px;
 			right: 30px;
 			font-size: 15px;
 			border-radius: 0%;
@@ -4589,9 +4584,9 @@
 	
 		.modetext {
 			position: absolute;
-			top: 60px;
+			bottom: 20px;
 			left: 20px;
-			width: 250px;
+			width: 90%;
 			color: #444444;
 			font-size: 16px;
 			line-height: 25px;
@@ -4599,11 +4594,11 @@
 			transition: 1s ease-in-out;
 			overflow: hidden;
 		}
-	
+		
 		.modeicon {
 			position: absolute;
-			bottom: 32px;
-			right: 207px;
+			top: 40px;
+			right: 40px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4613,10 +4608,10 @@
 	
 		.modeholder {
 			position: absolute;
-			top: 40px;
-			right: 20px;
-			height: 280px;
-			width: 150px;
+			top: 20px;
+			left: 20px;
+			height: 150px;
+			width: 280px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4630,8 +4625,8 @@
 		
 		.modeimg {
 			position: absolute;
-			top: 0px;
-			left: -150px;
+			top: -50px;
+			left: -100px;
 			height: 280px;
 			filter: grayscale(0%);
 			transition: 1s ease-in-out;
@@ -4640,9 +4635,9 @@
 		
 		.ingestext {
 			position: absolute;
-			top: 60px;
+			bottom: 20px;
 			left: 20px;
-			width: 250px;
+			width: 90%;
 			color: #444444;
 			font-size: 16px;
 			line-height: 25px;
@@ -4653,8 +4648,8 @@
 		
 		.ingesticon {
 			position: absolute;
-			bottom: 32px;
-			right: 207px;
+			top: 40px;
+			right: 40px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4664,8 +4659,8 @@
 		
 		.ingestimg {
 			position: absolute;
-			top: 0px;
-			left: -150px;
+			top: -50px;
+			left: -100px;
 			height: 280px;
 			filter: grayscale(0%);
 			transition: 1s ease-in-out;
@@ -4673,10 +4668,10 @@
 	
 		.ingestholder {
 			position: absolute;
-			top: 40px;
-			right: 20px;
-			height: 280px;
-			width: 150px;
+			top: 20px;
+			left: 20px;
+			height: 150px;
+			width: 280px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4690,9 +4685,9 @@
 	
 		.storetext {
 			position: absolute;
-			top: 60px;
+			bottom: 20px;
 			left: 20px;
-			width: 250px;
+			width: 90%;
 			color: #444444;
 			font-size: 16px;
 			line-height: 25px;
@@ -4703,8 +4698,8 @@
 	
 		.storeicon {
 			position: absolute;
-			bottom: 32px;
-			right: 207px;
+			top: 40px;
+			right: 40px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4714,8 +4709,8 @@
 	
 		.storeimg {
 			position: absolute;
-			top: 0px;
-			left: -150px;
+			top: -50px;
+			left: -100px;
 			height: 280px;
 			filter: grayscale(0%);
 			transition: 1s ease-in-out;
@@ -4724,10 +4719,10 @@
 		
 		.storeholder {
 			position: absolute;
-			top: 40px;
-			right: 20px;
-			height: 280px;
-			width: 150px;
+			top: 20px;
+			left: 20px;
+			height: 150px;
+			width: 280px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4742,9 +4737,9 @@
 	
 		.processtext {
 			position: absolute;
-			top: 60px;
+			bottom: 20px;
 			left: 20px;
-			width: 250px;
+			width: 90%;
 			color: #444444;
 			font-size: 16px;
 			line-height: 25px;
@@ -4755,8 +4750,8 @@
 	
 		.processicon {
 			position: absolute;
-			bottom: 32px;
-			right: 207px;
+			top: 40px;
+			right: 40px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4766,8 +4761,8 @@
 	
 		.processimg {
 			position: absolute;
-			top: 0px;
-			left: -150px;
+			top: -50px;
+			left: -100px;
 			height: 280px;
 			filter: grayscale(0%);
 			transition: 1s ease-in-out;
@@ -4775,10 +4770,10 @@
 		
 		.processholder {
 			position: absolute;
-			top: 40px;
-			right: 20px;
-			height: 280px;
-			width: 150px;
+			top: 20px;
+			left: 20px;
+			height: 150px;
+			width: 280px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
@@ -4792,9 +4787,9 @@
 	
 		.analysetext {
 			position: absolute;
-			top: 60px;
+			bottom: 20px;
 			left: 20px;
-			width: 250px;
+			width: 90%;
 			color: #444444;
 			font-size: 16px;
 			line-height: 25px;
@@ -4805,8 +4800,8 @@
 	
 		.analyseicon {
 			position: absolute;
-			bottom: 32px;
-			right: 207px;
+			top: 40px;
+			right: 40px;
 			height: 40px;
 			width: 40px;
 			filter: grayscale(0%);
@@ -4817,8 +4812,8 @@
 	
 		.analyseimg {
 			position: absolute;
-			top: 0px;
-			left: -150px;
+			top: -50px;
+			left: -100px;
 			height: 280px;
 			filter: grayscale(0%);
 			transition: 1s ease-in-out;
@@ -4826,10 +4821,10 @@
 		
 		.analyseholder {
 			position: absolute;
-			top: 40px;
-			right: 20px;
-			height: 280px;
-			width: 150px;
+			top: 20px;
+			left: 20px;
+			height: 150px;
+			width: 280px;
 			filter: grayscale(0%);
 			border-radius: 20px !important;
 			-webkit-border-radius: 20px !important;
