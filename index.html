@@ -7,7 +7,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Data Engineer | Lusaka</title>
         <link rel="icon" href="hacker.png">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style_large_screen.css" />
+        <link rel="stylesheet" href="style_mini_to_large.css" />
+        <link rel="stylesheet" href="style_mini_laptop.css" />
+        <link rel="stylesheet" href="style_tablet.css" />
+        <link rel="stylesheet" href="style_smartphone.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
@@ -19,6 +23,7 @@
         <!--script src="scriptBlockScroll.js"></script-->
         <!--script src="linkRFloater.js"></script>
         <script src="linkFloater.js"></script-->
+            
         <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
 </head>
 
@@ -134,58 +139,46 @@
                             <video muted="" playsinline="" class="videoplayer" aria-label="Data Engineering activity snippet" source src="data engineer.mp4" type="video/mp4" autoplay loop muted>
                             </video>
 
-                            <!--video muted="" playsinline="" aria-label="Switching between the Overleaf LaTeX Code Editor and Visual Editor." data-ol-autoplay-video="" poster="/img/website-redesign/visual-editor-poster.png"><source src="/img/website-redesign/visual-editor.mp4" type="video/mp4"></video-->
 
                         </div>
 
                     </di>
                     
-                    <!--img class="datapipelinehomeimg" src="datapipeline.png" alt="Description of the image"-->
-                    
-                        <!-- draw.io diagram -->
-                    
                     <div class="datapipelinename servicetag">Let me power up your Data Pipeline!</div>
-                    <div class="datapipelinesample servicetag">Take a look at some sample data pipelines below.</div>
+                    <div class="datapipelinesample servicetag">Take a look at some sample data pipelines below. Select a tab say driver or student to see the general data pipeline for each tab.</div>
 
                     <div class="pipestartdash servicetag"></div>
-                    <div class="pipedot1 servicetag"></div>
-                    <div class="pipedot2 servicetag"></div>
-                    <div class="pipedot3 servicetag"></div>
-                    <div class="pipedot4 servicetag"></div>
-                    <div class="pipedot5 servicetag"></div>
-                    <div class="pipedot6 servicetag"></div>
-                    <div class="pipedot7 servicetag"></div>
+                    
                     
                     <div class="source servicetag">Source</div>
-                    <div class="method">Collect</div>
+
                     
-                    <div class="ingestion">Ingest</div>
-                    <div class="ingestionmobile servicetag">Ingest</div>
-                    <div class="store">Store</div>
-                    <div class="storemobile servicetag">Store</div>
-                    <div class="process">Process</div>
-                    <div class="processmobile servicetag">Process</div>
-                    <div class="analyse">Analyse</div>
-                    <div class="analysemobile servicetag">Analyse</div>
+                    <div class="driver servicetag">driver</div>
+                    <div class="student servicetag">student</div>
+                    <div class="contentcreator servicetag">creator</div>
+                    <div class="hotelguest servicetag">guest</div>
+                   
+                    
                     <div class="visualise servicetag">Consume</div>
                     <div class="pipendash"></div>
-                    <div class="pipeline"></div>
+                    
 
-                    <!--div class="sourcenum">1</div>
-                    <div class="methodnum">2</div>
-                    <div class="ingestnum">3</div>
-                    <div class="storenum">4</div>
-                    <div class="processnum">5</div>
-                    <div class="analysenum">6</div>
-                    <div class="visualisenum">7</div-->
+                    <!--div class="sourcenum">0</div-->
+                    
+                    
+                    
+                    <!--div class="visualisenum">6</div-->
                     
                    
 
                     <div class="farmer servicetag">farmer</div>
 
                     <div class="pipeline1 servicetag">
-                       
+                        <div class="pipeline"></div>
                         <div class="methodcontainer">
+                            <div class="methodnum">1</div>
+                            <div class="method">Collect</div>
+                            <div class="methodmobile">Collect</div>
                             <div class="modetitle"></div>
                             <div class="modetext servicetag">
                                 <strong> Face-to-face interview with the farmer using an encrypted SurveyCTO form.</strong> <br><br> List the farmers and capture their geo-location data. Conduct episodes of data collection subject to the research design. 
@@ -197,6 +190,9 @@
                         </div>
 
                         <div class="ingestioncontainer">
+                            <div class="ingestnum">2</div>
+                            <div class="ingestion">Ingest</div>
+                            <div class="ingestionmobile">Ingest</div>
                             <div class="ingestext servicetag">
                                 <strong>Link SurveyCTO to Zapier to tap into limiteless automation.</strong> <br><br> Each farmer interview is submitted to an encrypted Zapier zap. The zap is ready to transfer the information on trigger. 
                             </div>
@@ -208,6 +204,9 @@
                         </div>
 
                         <div class="storecontainer">
+                            <div class="storenum">3</div>
+                            <div class="store">Store</div>
+                            <div class="storemobile">Store</div>
                             <div class="storetext servicetag">
                                 <strong>Link Zapier to a MySQL database or warehouse to store big data.</strong> <br><br> Each farmer entry is stored in a MySQL database. Each section in the original farmer questionnaire is stored as a table. 
                             </div>
@@ -218,6 +217,9 @@
                         </div>
 
                         <div class="processcontainer">
+                            <div class="processnum">4</div>
+                            <div class="process">Process</div>
+                            <div class="processmobile">Process</div>
                             <div class="processtext servicetag">
                                 <strong>Query data from the MySQL warehouse using Python functions.</strong> <br><br> Depending on the data analysis framework, columns of interest on farmer data are read as features in Python. 
                             </div>
@@ -229,6 +231,9 @@
                         </div>
 
                         <div class="analysecontainer">
+                            <div class="analysenum">5</div>
+                            <div class="analyse">Analyse</div>
+                            <div class="analysemobile">Analyse</div>
                             <div class="analysetext servicetag">
                                 <strong>Using PyStata, integrate Python Code within Stata to analyse the farmer data.</strong> <br><br> Subject to the analysis plan, produce accurate results and stunning visualisations to relay your insight to your clients.
                             </div>
@@ -241,8 +246,11 @@
                     </div>
 
                     <div class="pipeline2 servicetag">
-                        
+                        <div class="pipeline"></div>
                         <div class="methodcontainer">
+                            <div class="methodnum">1</div>
+                            <div class="method">Collect</div>
+                            <div class="methodmobile">Collect</div>
                             <div class="modetitle"></div>
                             <div class="modetext servicetag">
                                 <strong>Self-administered interview with the driver using a Webform.</strong> <br><br> Obtain data from the cab company including email addresses of their drivers and share the form via email. 
@@ -255,6 +263,9 @@
                         </div>
 
                         <div class="ingestioncontainer">
+                            <div class="ingestnum">2</div>
+                            <div class="ingestion">Ingest</div>
+                            <div class="ingestionmobile">Ingest</div>
                             <div class="ingestext servicetag">
                                 <strong>Link the Webform to Zapier to tap into limiteless automation.</strong> <br><br> Each cab driver response is submitted to an encrypted Zapier zap. The zap is ready to transfer the information on trigger. 
                             </div>
@@ -266,6 +277,9 @@
                         </div>
 
                         <div class="storecontainer">
+                            <div class="storenum">3</div>
+                            <div class="store">Store</div>
+                            <div class="storemobile">Store</div>
                             <div class="storetext servicetag">
                                 <strong>Link Zapier to a MySQL database or warehouse to store big data.</strong> <br><br> Each driver observation is stored in a MySQL database. Each section in the original cab driver questionnaire is stored as a table.
                             </div>
@@ -277,6 +291,9 @@
                         </div>
 
                         <div class="processcontainer">
+                            <div class="processnum">4</div>
+                            <div class="process">Process</div>
+                            <div class="processmobile">Store</div>
                             <div class="processtext servicetag">
                                 <strong>Query data from the MySQL warehouse using Python functions.</strong> <br><br> Depending on the data analysis framework, columns of interest on cab driver data are read as features in Python.
                             </div>
@@ -287,6 +304,9 @@
                         </div>
                         
                         <div class="analysecontainer">
+                            <div class="analysenum">5</div>
+                            <div class="analyse">Analyse</div>
+                            <div class="analysemobile">Analyse</div>
                             <div class="analysetext servicetag">
                                 <strong>Write Python functions to analyse the data.</strong> <br><br> Based on the analytical framework and plan, write Python programs to analyse the cab driver data and generate insight for consumers to take up.
                             </div>
@@ -299,8 +319,11 @@
                     </div>
 
                     <div class="pipeline3 servicetag">
-                        
+                        <div class="pipeline"></div>
                         <div class="methodcontainer">
+                            <div class="methodnum">1</div>
+                            <div class="method">Collect</div>
+                            <div class="methodmobile">Collect</div>
                             <div class="modetitle"></div>
                             <div class="modetext servicetag">
                                 <strong>Self-administered interview with the student using a Twillio form linked to WhatsApp.</strong> <br><br> Using WhatsApp contact details of students, share the form for them to interact with the AI prompted questions. 
@@ -312,6 +335,9 @@
                         </div>
 
                         <div class="ingestioncontainer">
+                            <div class="ingestnum">2</div>
+                            <div class="ingestion">Ingest</div>
+                            <div class="ingestionmobile">Ingest</div>
                             <div class="ingestext servicetag">
                                 <strong>Develop a Node JavaScript program to bridge Twillio and MySQL.</strong> <br><br> The server side script will autmatically ingest data from Twillio to a MySQL database for scalable storage of the student data.
                             </div>
@@ -322,6 +348,9 @@
                         </div>
 
                         <div class="storecontainer">
+                            <div class="storenum">3</div>
+                            <div class="store">Store</div>
+                            <div class="storemobile">Store</div>
                             <div class="storetext servicetag">
                                 <strong>MySQL database or warehouse used to store big data.</strong> <br><br> Thousands of observations submitted by students stored safely and securely in MySQL database.
                             </div>
@@ -332,6 +361,9 @@
                         </div>
 
                         <div class="processcontainer">
+                            <div class="processnum">4</div>
+                            <div class="process">Process</div>
+                            <div class="processmobile">Process</div>
                             <div class="processtext servicetag">
                                 <strong>Query data from the MySQL warehouse using Python functions.</strong> <br><br> Depending on the data analysis framework, columns of interest on student data are read as features in Python.
                             </div>
@@ -342,6 +374,9 @@
                         </div>
 
                         <div class="analysecontainer">
+                            <div class="analysenum">5</div>
+                            <div class="analyse">Analyse</div>
+                            <div class="analysemobile">Analyse</div>
                             <div class="analysetext servicetag">
                                 <strong>Write Python functions to analyse the data.</strong> <br><br> Based on the analytical framework and plan, write Python programs to analyse the student data and generate insight for consumers to take up.
                             </div>
@@ -354,8 +389,11 @@
                     </div>
 
                     <div class="pipeline4 servicetag">
-                        
+                        <div class="pipeline"></div>
                         <div class="methodcontainer">
+                            <div class="methodnum">1</div>
+                            <div class="method">Collect</div>
+                            <div class="methodmobile">Collect</div>
                             <div class="modetitle"></div>
                             <div class="modetext servicetag">
                                 <strong>API authorised web-scrapping of content creator handles with Python.</strong> <br><br> Identify content creator social media handles of interest. Automate the mining of posts, likes, comments and shares.
@@ -367,6 +405,9 @@
                         </div>
 
                         <div class="ingestioncontainer">
+                            <div class="ingestnum">2</div>
+                            <div class="ingestion">Ingest</div>
+                            <div class="ingestionmobile">Ingest</div>
                             <div class="ingestext servicetag">
                                 <strong>Leverage on Amazon KINESIS streaming to handle live data.</strong> <br><br> With Python mining the social media data, maximise on the efficiency of KINESIS to process the data. 
                             </div>
@@ -377,6 +418,9 @@
                         </div>
 
                         <div class="storecontainer">
+                            <div class="storenum">3</div>
+                            <div class="store">Store</div>
+                            <div class="storemobile">Store</div>
                             <div class="storetext servicetag">
                                 <strong>Link Amazon KINESIS to Amazon S3 to store the processed data.</strong> <br><br> With live streaming data, you will need scalable storage. Rely on S3 to store the data and use it on demand in realtime.
                             </div>
@@ -387,6 +431,9 @@
                         </div>
 
                         <div class="processcontainer">
+                            <div class="processnum">4</div>
+                            <div class="process">Process</div>
+                            <div class="processmobile">Process</div>
                             <div class="processtext servicetag">
                                 <strong>Query data from Amazon S3 using Python functions.</strong> <br><br> Depending on the data analysis framework, columns of interest on content creator data are read as features in Python. 
                             </div>
@@ -398,6 +445,9 @@
                         <!--img class="processimg servicetag" src="visualpython.jpg" alt="Description of the image"-->
 
                         <div class="analysecontainer">
+                            <div class="analysenum">5</div>
+                            <div class="analyse">Analyse</div>
+                            <div class="analysemobile">Analyse</div>
                             <div class="analysetext servicetag">
                                 <strong>Use R to conduct sentimental analysis on the data.</strong> <br><br> R is a matter of preference as Python can match the analytical capabilities of R. 
                             </div>
@@ -410,8 +460,11 @@
                     </div>
 
                     <div class="pipeline5 servicetag">
-                        
+                        <div class="pipeline"></div>
                         <div class="methodcontainer">
+                            <div class="methodnum">1</div>
+                            <div class="method">Collect</div>
+                            <div class="methodmobile">Collect</div>
                             <div class="modetitle"></div>
                             <div class="modetext servicetag">
                                 <strong>Self-administered interview with the hotel guest using a Qualtrics form.</strong> <br><br> Create a QR-Code-link to the form and print it on the hotel-reception countertop for each guest to scan access. 
@@ -423,6 +476,9 @@
                         </div>
 
                         <div class="ingestioncontainer">
+                            <div class="ingestnum">2</div>
+                            <div class="ingestion">Ingest</div>
+                            <div class="ingestionmobile">Ingest</div>
                             <div class="ingestext servicetag">
                                 <strong>Link Qualtrics to Zapier to tap into limiteless automation.</strong> <br><br> Each hotel guest interview is submitted to an encrypted Zapier zap. The zap is ready to transfer the information on trigger. 
                             </div>
@@ -433,6 +489,9 @@
                         </div>
 
                         <div class="storecontainer">
+                            <div class="storenum">3</div>
+                            <div class="store">Store</div>
+                            <div class="storemobile">Store</div>
                             <div class="storetext servicetag">
                                 <strong>Link Zapier to a MySQL database or warehouse to store big data.</strong> <br><br> Each hotel guest entry is stored in a MySQL database. Each section in the hotel guest questionnaire is stored as a table.
                             </div>
@@ -443,6 +502,9 @@
                         </div>
 
                         <div class="processcontainer">
+                            <div class="processnum">4</div>
+                            <div class="process">Process</div>
+                            <div class="processmobile">Process</div>
                             <div class="processtext servicetag">
                                 <strong>Query data from the MySQL warehouse using Python functions.</strong> <br><br> Depending on the data analysis framework, columns of interest on hotel guests data are read as features in Python.  
                             </div>
@@ -453,6 +515,9 @@
                         </div>
                         
                         <div class="analysecontainer">
+                            <div class="analysenum">5</div>
+                            <div class="analyse">Analyse</div>
+                            <div class="analysemobile">Analyse</div>
                             <div class="analysetext servicetag">
                                 <strong>Using PyStata, integrate Python Code within Stata to analyse the hotel guest data.</strong> <br><br> Subject to the analysis plan, produce accurate results and stunning visualisations to relay your insight to your clients.
                             </div>
@@ -464,22 +529,6 @@
                         
                     </div>
 
-
-
-
-                    
-
-
-
-
-
-
-                    <div class="driver servicetag">driver</div>
-                    <div class="student servicetag">student</div>
-                    <div class="contentcreator servicetag">creator</div>
-                    <div class="hotelguest servicetag">guest</div>
-
-                    
 
 
                 </div>
