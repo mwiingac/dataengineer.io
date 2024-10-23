@@ -1728,7 +1728,7 @@
 	
 		.modeicon {
 			position: absolute;
-			bottom: 32px;
+			top: 40px;
 			right: 207px;
 			height: 40px;
 			width: 40px;
@@ -1780,7 +1780,7 @@
 	
 		.ingesticon {
 			position: absolute;
-			bottom: 32px;
+			top: 40px;
 			right: 207px;
 			height: 40px;
 			width: 40px;
@@ -1830,7 +1830,7 @@
 	
 		.storeicon {
 			position: absolute;
-			bottom: 32px;
+			top: 40px;
 			right: 207px;
 			height: 40px;
 			width: 40px;
@@ -1882,7 +1882,7 @@
 	
 		.processicon {
 			position: absolute;
-			bottom: 32px;
+			top: 40px;
 			right: 207px;
 			height: 40px;
 			width: 40px;
@@ -1932,7 +1932,7 @@
 	
 		.analyseicon {
 			position: absolute;
-			bottom: 32px;
+			top: 40px;
 			right: 207px;
 			height: 40px;
 			width: 40px;
@@ -2064,7 +2064,7 @@
 	
 			border: 0px dashed #6fffc3;
 			transition: 0.5s ease-in-out;
-			z-index: 500;
+			z-index: 0;
 			opacity: 0;
 		}
 	
@@ -2146,7 +2146,7 @@
 	
 			border: 0px dashed #ffd96f;
 			transition: 0.5s ease-in-out;
-			z-index: 500;
+			z-index: 0;
 			opacity: 0;
 		}
 	
@@ -2232,7 +2232,7 @@
 	
 			border: 0px dashed #ffd96f;
 			transition: 0.5s ease-in-out;
-			z-index: 500;
+			z-index: 0;
 			opacity: 0;
 		}
 	
@@ -2315,7 +2315,7 @@
 	
 			border: 0px dashed #272726;
 			transition: 0.5s ease-in-out;
-			z-index: 500;
+			z-index: 0;
 			opacity: 0;
 		}
 	
