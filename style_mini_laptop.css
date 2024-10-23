@@ -508,10 +508,10 @@
 	
 		.logoimg {
 			position: absolute;
-			top: 20px;
-            left: 47%;
-			width: 40px;
-			opacity: 1;
+			top: 0px;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
 		}
 	
 		.logo:hover .logoimg {
@@ -1666,7 +1666,7 @@
 			z-index: 700;
 		}
 		
-        
+
 		.pipeline1 {
             
 			position: absolute;

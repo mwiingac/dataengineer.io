@@ -508,8 +508,9 @@
 		.logoimg {
 			position: absolute;
 			top: 0px;
-			width: 40px;
-			opacity: 1;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
 		}
 	
 		.logo:hover .logoimg {
@@ -3456,8 +3457,9 @@
 		.logoimg {
 			position: absolute;
 			top: 0px;
-			width: 40px;
-			opacity: 1;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
 		}
 	
 		.logo:hover .logoimg {
@@ -6404,8 +6406,9 @@
 		.logoimg {
 			position: absolute;
 			top: 0px;
-			width: 40px;
-			opacity: 1;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
 		}
 	
 		.logo:hover .logoimg {
@@ -9352,8 +9355,9 @@
 		.logoimg {
 			position: absolute;
 			top: 0px;
-			width: 40px;
-			opacity: 1;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
 		}
 	
 		.logo:hover .logoimg {
@@ -12302,8 +12306,9 @@
 		.logoimg {
 			position: absolute;
 			top: 0px;
-			width: 40px;
-			opacity: 1;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
 		}
 	
 		.logo:hover .logoimg {
@@ -15251,8 +15256,9 @@
 		.logoimg {
 			position: absolute;
 			top: 0px;
-			width: 40px;
-			opacity: 1;
+            width: 0px;
+            height: 0px;
+            opacity: 0;
 		}
 	
 		.logo:hover .logoimg {
