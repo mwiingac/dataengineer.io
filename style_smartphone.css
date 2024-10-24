@@ -454,6 +454,7 @@
 			width: 37px;
 			opacity: 1;
 			transition: 0.25s ease-in-out;
+            filter: grayscale(100);
 		}
 	
 		.whatsappimg2 {
