@@ -71,20 +71,19 @@
 
     <div class="pages">
         
-        <div class="senddatarequestbase servicetag">
-                        
+        <div class="senddatarequestbase">     
             <button class="senddatarequest" onclick="toggleOpacity()">
                 <svg width="20px" height="20px" class="senddatarequestarrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="currentColor"></path>
                 </svg>
-                Share your data needs</button>
-        
-    </div>
+                Share your data needs
+            </button>
+        </div>
         
             <div class="whatsapp" alt="Whatsapp">
                 <a href="https://api.whatsapp.com/send?phone=260970295121&text=Hi%20DataPlus1!%20%20I%20would%20like%20to%20know%20more%20about%20the%20data%20services%20that%20you%20offer%20in%20your%20spare%20time" alt="Whatsapp">
                     WA
-                <img class="whatsappimg1" src="whatsappgrey.png" alt="Whatsapp">
+                <img class="whatsappimg1" src="whatsapp.png" alt="Whatsapp">
                 <img class="whatsappimg2" src="whatsapp.png" alt="Whatsapp">
                 </a>
             </div>
@@ -98,6 +97,15 @@
                 
                 <div class="detailResearchP1">
                     
+                    <div class="sharerequestbase servicetag">     
+                        <button class="sharerequest" onclick="toggleOpacity()">
+                            <svg width="20px" height="20px" class="senddatarequestarrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="currentColor"></path>
+                            </svg>
+                            Share your data needs
+                        </button>
+                    </div>
+
                     <img class="logoimg" src="hacker.png" alt="avatar"> <br>
 
                     <div class="logo servicetag">
@@ -632,9 +640,12 @@
                     </div>
                     <div class="innerpage4">
                         
+                        <div class="page_4_left_bar"></div>
+                        <iframe src="https://qualtricsxmyqzgcsfpz.qualtrics.com/jfe/form/SV_02IOUOAUft0j9Eq" height="100%" width="100%"></iframe>
                         
-                        <form id="dataForm" class="dataForm">
+                        <!--form id="dataForm" class="dataForm">
                             
+
                             <label for="firstName">First name:</label>
                             <input type="text" id="firstName" style="border-radius: 5px; border: 1.5px solid #999999; height: 25px;" name="firstName" required><br>
                             
@@ -901,7 +912,7 @@
 
                             <!--label for="whatsapp">WhatsApp Number:</label>
                             <input type="tel" id="whatsapp" style="border-radius: 5px; border: 1.5px solid #999999; height: 25px;" name="whatsapp" required><br>
-                            -->
+                            >
 
                             <label for="employmentStatus">Employment status:</label>
                             <select id="employmentStatus" style="border-radius: 5px; border: 1.5px solid #999999; height: 25px;" name="employmentStatus" required>
@@ -920,7 +931,7 @@
                                 <option value="certificates">College certificate or diploma</option>
                                 <option value="college">First degree</option>
                                 <option value="masters">Masters</option>
-                                <option value="postgraduate">Post Gratuate</option>
+                                <option value="postgraduate">Post Graduate</option>
                             </select><br>
                             
                             <label for="checkDataPipeline">Our or my data pipeline requires troubleshooting:</label>
@@ -981,7 +992,7 @@
                             <div id="dataComplianceContainer" style="display: none;">
                             <label for="complyPipeDescript">Describe the data protection laws and ethics in your country:</label>
                             <textarea id="complyPipeDescript" style="border-radius: 5px; border: 1.5px solid #999999; " name="complyPipeDescript" optional></textarea>
-                            </div><br><br><br-->
+                            </div><br><br><br>
 
 
                             <label for="dataTutor">We or I need tutorials on coding for data:</label>
@@ -997,7 +1008,9 @@
 
 
                             <button type="submit" id="submit" class="submit">submit</button>
-                        </form>
+
+
+                        </form-->
 
 
                         
@@ -1067,7 +1080,7 @@
                                 
                                 const formData = new FormData(this);
                                 const data = new URLSearchParams(formData).toString();
-                            
+                                
                                 try {
                                     const response = await fetch('https://hooks.zapier.com/hooks/catch/20066032/2h6w3d4/', {
                                         method: 'POST',

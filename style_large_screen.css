@@ -270,21 +270,24 @@
 			text-align: center;
 			word-wrap: break-word;
 			overflow: hidden;
-			width: 40px;
+			width: 0px;
 			bottom: 0%;
 			left: 0%;
-			height: 50px;
-			font-size: 30px;
+			height: 0px;
+			font-size: 0px;
 			border: 0px solid #ffffff;
 			font-family: 'Segoe UI Variable Text', 'Segoe UI Variable', 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', system-ui, sans-serif;
 			transition: 0.5s ease-in-out;
-			background-color: #ffffff;
+			/*background-color: #ffffff;*/
 			color: inherit;
+            /*
 			border-radius: 40px !important;
 			-webkit-border-radius: 40px !important;
 			-moz-border-radius: 40px !important;
 			-ms-border-radius: 40px !important;
 			z-index: 1000;
+            */
+            opacity: 0;
 		}
 	
 		.topage1:hover {
@@ -450,6 +453,7 @@
 			top: 0%;
 			left: 0%;
 			width: 37px;
+            filter: grayscale(100);
 			opacity: 1;
 			transition: 0.25s ease-in-out;
 		}
@@ -482,7 +486,7 @@
 			border-radius: 0%;
 			top: 0%;
 			left: 0vw;
-			height: 2800px;
+			height: 3300px;
 			width: 100%;
 			z-index: 1;
 			background-color: #FFFFFF;
@@ -497,7 +501,7 @@
 			vertical-align: middle;
 			justify-content: center;
 			align-items: center;
-			top: 3000px;
+			top: 3200px;
 			right: 0px;
 			font-size: 15px;
 			border-radius: 0%;
@@ -524,7 +528,7 @@
 			color: #000000;
 			text-align: center;
 			width: 100%;
-			top: 150px;
+			top: 100px;
 			left: 0px;
 			font-size: 55px;
 			font-family: 'Segoe UI Variable Text', 'Segoe UI Variable', 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', system-ui, sans-serif;
@@ -546,7 +550,7 @@
 			word-wrap: break-word;
 			left: 0%;
 			width: 100%;
-			top: 250px;
+			top: 220px;
 			height: auto;
 			/*font-family: Helvetica; */
 			font-size: 22px;
@@ -561,7 +565,7 @@
 			text-align: center;
             align-items: center;
 			justify-content: center;
-			top: 290px;
+			top: 260px;
 			left: 0px;
 			width: 100%;
 			font-size: 22px;
@@ -583,7 +587,7 @@
 		.typing-container {
 			position: absolute;
 			text-align: left;
-			top: 330px;
+			top: 300px;
 			left: 40%;
 			width: 20%;
 			font-size: 22px;
@@ -630,7 +634,7 @@
 			text-align: center;
 			justify-content: center;
 			display: flex;
-			top: 450px;
+			top: 530px;
 			width: 100%;
 			height: 350px;
 			left: 0%;
@@ -722,6 +726,44 @@
 			overflow: hidden;
 			z-index: 1000;
 		}
+
+        .sharerequestbase {
+			position: absolute;
+			height: 50px;
+			width: 250px;
+			left: 42.5%;
+			top: 400px;
+			padding: 10;
+			transition: 1s ease-in-out;
+			vertical-align: middle;
+			justify-content: center;
+			align-items: center;
+			text-align: left;
+			overflow: hidden;
+			z-index: 1000;
+		}
+
+        .sharerequest {
+			position: absolute;
+			top: 0px;
+			background-color: #5FCBD2; /* 2a6eff */
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 1000;
+			font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', system-ui, sans-serif;
+			width: 100%;
+			height: 100%;
+			-webkit-appearance: button;
+			-moz-appearance: button;
+			-ms-appearance: button;
+			appearance: button;
+			/*border-radius: .25rem; */
+			border-radius: 40px !important;
+			transition: 1s ease-in-out;
+			border: 0px solid #323a39;
+			z-index: 1000;
+			
+		}
 	
 	
 		a	{
@@ -737,7 +779,7 @@
 		.senddatarequest {
 			position: absolute;
 			top: 0px;
-			background-color: #2a6eff;
+			background-color: #e2e2e2;
 			color: #ffffff;
 			font-size: 18px;
 			font-weight: 1000;
@@ -773,6 +815,20 @@
 	
 	
 		.senddatarequest:hover {
+			background-color: #00ffff;
+			color: #000000;
+			cursor: pointer;
+		}
+
+
+        .sharerequest:hover .senddatarequestarrow {
+			position: absolute; 
+			color: #000000;
+			rotate: 360deg;
+		}
+	
+	
+		.sharerequest:hover {
 			background-color: #00ffff;
 			color: #000000;
 			cursor: pointer;
@@ -832,7 +888,7 @@
 		.datapipelinename {
 			position: absolute;
 			left: 0px;
-			top: 1270px;
+			top: 1370px;
 			width: 100%;
 			height: 100px;
 			font-size: 45px;
@@ -857,9 +913,9 @@
 	
 		.datapipelinesample {
 			position: absolute;
-			left: 0px;
-			top: 1365px;
-			width: 100%;
+			left: 30%;
+			top: 1465px;
+			width: 40%;
 			height: 100px;
 			font-size: 20px;
             line-height: 32px;
@@ -1018,13 +1074,16 @@
 			z-index: 900;
 			font-weight: 100;
 		}
-	
+        
 	
 		.methodcontainer {
 			position: absolute;
 			left: 14%;
 			top: 150px;
-			width: 550px;
+		}
+
+        .methodcontainer, .ingestioncontainer, .storecontainer, .processcontainer, .analysecontainer {
+            width: 550px;
 			height: 350px;
 			/*background-color: #e5e1da;*/
 			background-color: #f1f5f5;
@@ -1041,7 +1100,7 @@
 			-ms-border-radius: 20px !important;
 			transition: 1s ease-in-out;
 			z-index: 900;
-		}
+        }
 	
 		.method {
 			position: absolute;
@@ -1103,7 +1162,7 @@
 			top: 34%;
 			width: 40px;
 			height: 40px;
-			font-size: 30px;
+			font-size: 25px;
 			color: #777777;
 
 			/*background-color: #e5e1da;*/
@@ -1132,22 +1191,6 @@
 			position: absolute;
 			right: 14%;
 			top: 350px;
-			width: 550px;
-			height: 350px;
-			background-color: #f1f5f5;
-			display: flex;
-			vertical-align: middle;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			overflow: show;
-			border: 0px solid #000000;
-			border-radius: 20px !important;
-			-webkit-border-radius: 20px !important;
-			-moz-border-radius: 20px !important;
-			-ms-border-radius: 20px !important;
-			transition: 1s ease-in-out;
-			z-index: 900;
 		}
 	
 		.ingestion {
@@ -1208,7 +1251,7 @@
 			top: 34%;
 			width: 40px;
 			height: 40px;
-			font-size: 30px;
+			font-size: 25px;
 			color: #777777;
 
 			/*background-color: #e5e1da;*/
@@ -1237,23 +1280,6 @@
 			position: absolute;
 			left: 14%;
 			top: 600px;
-			width: 550px;
-			height: 350px;
-			/*background-color: #e5e1da;*/
-			background-color: #f1f5f5;
-			display: flex;
-			vertical-align: middle;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			overflow: show;
-			border: 0px solid #000000;
-			border-radius: 20px !important;
-			-webkit-border-radius: 20px !important;
-			-moz-border-radius: 20px !important;
-			-ms-border-radius: 20px !important;
-			transition: 1s ease-in-out;
-			z-index: 900;
 		}
 	
 		.store {
@@ -1318,7 +1344,7 @@
 			top: 34%;
 			width: 40px;
 			height: 40px;
-			font-size: 30px;
+			font-size: 25px;
 			color: #777777;
 
 			/*background-color: #e5e1da;*/
@@ -1346,22 +1372,6 @@
 			position: absolute;
 			right: 14%;
 			top: 800px;
-			width: 550px;
-			height: 350px;
-			background-color: #f1f5f5;
-			display: flex;
-			vertical-align: middle;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			overflow: show;
-			border: 0px solid #000000;
-			border-radius: 20px !important;
-			-webkit-border-radius: 20px !important;
-			-moz-border-radius: 20px !important;
-			-ms-border-radius: 20px !important;
-			transition: 1s ease-in-out;
-			z-index: 900;
 		}
 	
 		.process {
@@ -1426,7 +1436,7 @@
 			top: 34%;
 			width: 40px;
 			height: 40px;
-			font-size: 30px;
+			font-size: 25px;
 			color: #777777;
 
 			/*background-color: #e5e1da;*/
@@ -1454,23 +1464,6 @@
 			position: absolute;
 			left: 14%;
 			top: 1050px;
-			width: 550px;
-			height: 350px;
-			/*background-color: #e5e1da;*/
-			background-color: #f1f5f5;
-			display: flex;
-			vertical-align: middle;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			overflow: show;
-			border: 0px solid #000000;
-			border-radius: 20px !important;
-			-webkit-border-radius: 20px !important;
-			-moz-border-radius: 20px !important;
-			-ms-border-radius: 20px !important;
-			transition: 1s ease-in-out;
-			z-index: 900;
 		}
 	
 	
@@ -1536,7 +1529,7 @@
 			top: 34%;
 			width: 40px;
 			height: 40px;
-			font-size: 30px;
+			font-size: 25px;
 			color: #777777;
 
 			/*background-color: #e5e1da;*/
@@ -1634,8 +1627,8 @@
 		
 		.farmer {
 			position: absolute;
-			left: 650px;
-			top: 1490px;
+			left: 675px;
+			top: 1590px;
 			width: 100px;
 			height: 50px;
 			font-size: 20px;
@@ -1677,7 +1670,7 @@
 		.pipeline1 {
 			position: absolute;
 			left: 100px;
-			top: 1500px;
+			top: 1600px;
 			width: 1660px;
 			height: 1600px;
 			background-color: #ffffff;  /* #e5e1da*/
@@ -1989,8 +1982,8 @@
 	
 		.driver {
 			position: absolute;
-			left: 750px;
-			top: 1490px;
+			left: 775px;
+			top: 1590px;
 			width: 100px;
 			height: 50px;
 			font-size: 20px;
@@ -2032,7 +2025,7 @@
 		.pipeline2 {
 			position: absolute;
 			left: 100px;
-			top: 1500px;
+			top: 1600px;
 			width: 1660px;
 			height: 1600px;
 			background-color: #ffffff;  /* #e5e1da*/
@@ -2071,8 +2064,8 @@
 	
 		.student {
 			position: absolute;
-			left: 850px;
-			top: 1490px;
+			left: 875px;
+			top: 1590px;
 			width: 100px;
 			height: 50px;
 			font-size: 20px;
@@ -2114,7 +2107,7 @@
 		.pipeline3 {
 			position: absolute;
 			left: 100px;
-			top: 1500px;
+			top: 1600px;
 			width: 1660px;
 			height: 1600px;
 			background-color: #ffffff;  /* #e5e1da*/
@@ -2156,8 +2149,8 @@
 	
 		.contentcreator {
 			position: absolute;
-			left: 950px;
-			top: 1490px;
+			left: 975px;
+			top: 1590px;
 			width: 100px;
 			height: 50px;
 			font-size: 20px;
@@ -2200,7 +2193,7 @@
 		.pipeline4 {
 			position: absolute;
 			left: 100px;
-			top: 1500px;
+			top: 1600px;
 			width: 1660px;
 			height: 1600px;
 			background-color: #ffffff;  /* #e5e1da*/
@@ -2240,8 +2233,8 @@
 	
 		.hotelguest {
 			position: absolute;
-			left: 1050px;
-			top: 1490px;
+			left: 1075px;
+			top: 1590px;
 			width: 100px;
 			height: 50px;
 			font-size: 20px;
@@ -2283,7 +2276,7 @@
 		.pipeline5 {
 			position: absolute;
 			left: 100px;
-			top: 1500px;
+			top: 1600px;
 			width: 1660px;
 			height: 1600px;
 			background-color: #ffffff;  /* #e5e1da*/
@@ -2479,7 +2472,7 @@
 			overflow: hidden;
 			/*background-color: #ffeef3; #F9EBE2*/
 			background-color: #1d1d1d;
-			top: 50px;
+			top: 250px;
 			left: 18%;
 			width: 270px;
 			height: 270px;
@@ -2541,8 +2534,8 @@
 			background-color: #1d1d1d;
 			
 			color: #000000;
-			top: 480px;
-			left: 40%;
+			top: 550px;
+			left: 42%;
 			width:270px;
 			height: 270px;
 			font-size: 37px;
@@ -2598,7 +2591,7 @@
 			background-color: #1d1d1d; /* #f1f5f5; */
 			
 			color: #000000;
-			top: 70px;
+			top: 250px;
 			right: 18%;
 			width: 270px;
 			height: 270px;
@@ -2857,6 +2850,7 @@
 			word-wrap: break-word;
 			overflow: hidden;
 			color: #000000;
+            background-color: #ffffff;
 			width: 100%;
 			top: 0%;
 			height: 10%;
@@ -2873,7 +2867,7 @@
 			display: flex;
 			width: 100%;
 			left: 0%;
-			top: 0%;
+			top: 14%;
 			height: 90%;
 			font-size: 18px;
 			font-family: "Nanum Gothic", sans-serif;
@@ -2885,7 +2879,7 @@
 			word-wrap: break-word;
 			line-height: 2.5;
 			/*background-color: #e5e1da;*/
-			border-left: 0px dashed #ffffff;
+			border-left: 5px solid #ffffff;
 			border-radius: 0px !important;
 			-webkit-border-radius: 0px !important;
 			-moz-border-radius: 0px !important;
@@ -2893,11 +2887,23 @@
 			overflow-y: scroll;
 			transition: 1s ease-in-out;
 		}
+
+        .page_4_left_bar {
+            position: absolute;
+			display: flex;
+            left: 0%;
+			top: 0%;
+			width: 20px;
+			height: 100%;
+            background-color: #ffffff;
+            z-index: 900;
+        }
+
 		
 		#dataForm {
 	
 			position: absolute;
-			top: 150px; 
+			top: 200px; 
 			left: 230px;
 			transition: 1s ease-in-out;
 		}
@@ -2916,7 +2922,7 @@
 		}
 	  
 		.innerpage4::-webkit-scrollbar-thumb {
-			background-color: #d8d8d8; /* Color of the scrollbar thumb */
+			background-color: #ffffff; /* Color of the scrollbar thumb */
 			border-radius: 40px; /* Roundness of the scrollbar thumb */
 			border: 0px solid #f1f1f1; /* Padding around the scrollbar thumb */
 		}

@@ -1,3 +1,5 @@
+
+
 /* SMARTPHONES */
 @media only screen and (max-width: 600px) {
 
@@ -720,6 +722,43 @@
 			overflow: hidden;
 			z-index: 1000;
 		}
+
+        
+.sharerequestbase {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    left: 0%;
+    top: 0px;
+    padding: 0;
+    transition: 1s ease-in-out;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0;
+}
+
+.sharerequest {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    left: 0%;
+    top: 0px;
+    padding: 0;
+    transition: 1s ease-in-out;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0;
+    
+}
+
 	
 	
 		a	{
@@ -783,9 +822,9 @@
 			position: absolute;
 			background-color: #ff2a2a;
 			right: 0px;
-			top: 0px;
-			width: 40px;
-			height: 40px;
+			top: 25px;
+			width: 60px;
+			height: 60px;
 			transition: 1s ease-in-out;
 			border: 0px solid #000000;
 			vertical-align: middle;
@@ -802,7 +841,7 @@
 			top: 0px;
 			background-color: #ff2a2a;
 			color: #ffffff;
-			font-size: 40px;
+			font-size: 50px;
 			font-weight: 1;
 			width: 100%;
 			height: 100%;
@@ -2729,7 +2768,7 @@
 			background-color: #ffffff;
 			left: 0%;
 			width: 90%;
-			height: 70px;
+			height: 10%;
 			top: 0px;
 			font-size: 35px;
 			font-family: 'Segoe UI Variable Text', 'Segoe UI Variable', 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', system-ui, sans-serif;
@@ -2742,10 +2781,10 @@
 		.innerpage4 {
 			position: absolute;
 			display: flex;
-			width: 95%;
+			width: 100%;
 			left: 0%;
-			top: 0%;
-			height: 95%;
+			top: 14%;
+			height: 90%;
 			font-size: 18px;
 			font-family: "Nanum Gothic", sans-serif;
 			overflow-wrap: anywhere;
@@ -2764,6 +2803,17 @@
 			overflow-y: scroll;
 			transition: 1s ease-in-out;
 		}
+
+        .page_4_left_bar {
+            position: absolute;
+			display: flex;
+            left: 0%;
+			top: 0%;
+			width: 10px;
+			height: 100%;
+            background-color: #ffffff;
+            z-index: 900;
+        }
 		
 		#dataForm {
 	
